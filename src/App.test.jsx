@@ -9,7 +9,7 @@ function addTask(title) {
 
 test('affiche le texte Ajouter sur le bouton', () => {
   render(<App />);
-  expect(screen.getByRole('button', { name: 'ajouter' })).toHaveTextContent(/^Ajouter$/);
+  expect(screen.getByRole('button', { name: 'Ajouter' })).toHaveTextContent(/^Ajouter$/);
 });
 
 test('affiche une liste vide et refuse les tâches vides', () => {
