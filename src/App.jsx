@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <main>
-      <h1>Ma todo list</h1>
+      <h1>Ma todo list 2</h1>
       <form onSubmit={addTask}>
         <label htmlFor="task">Nouvelle tâche</label>
         <div className="entry">
